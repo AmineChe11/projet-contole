@@ -1,0 +1,119 @@
+   .center-text h2{
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 60px;
+  
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family: "Jost", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background-color: white;
+}
+.logo img{
+  max-width: 120px;
+  height: auto;
+}
+.navmenu{
+  display: flex;
+}
+.navmenu a{
+  color: black;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+
+.navmenu :hover{
+  color: red;
+}
+.nav-icon{
+  display: flex;
+  align-items: center;
+}
+.nav-icon i{
+ margin-right: 20px;
+ color: rgb(125, 103, 146);
+ font-size: 20px;
+}
+.nav-icon i:hover{
+  color: red;
+}
+
+  .center-text span{
+    color: rgb(50, 89, 206);
+  
+  }
+  .products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+    margin-top: 15%;
+  }
+  .row{
+    position: relative;
+    transition: all .40s;
+  }
+  .row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+  }
+  
+  
+  .row img:hover{
+    transform: scale(0.9);
+  }
+  .product-text h5{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(27, 180, 27);
+    padding: 3px 10px;
+    border-radius: 1px;
+  }
+  .heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+  }
+  .heart-icon:hover{
+    color: red;
+  }
+  .ratting{
+    color: rgb(207, 180, 24);
+  }
+  .price h4{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  .price p{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+  }
